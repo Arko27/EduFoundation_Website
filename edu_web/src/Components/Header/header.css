@@ -1,9 +1,9 @@
 #logo{
-    width: 60%;
+    width: 15rem;
 }
 
-.navbar-brand{
-    padding-right: 0px;
-    margin-right: 0px;
-    width: fit-content;
+.nav-link{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    font-size: 18px;
 }

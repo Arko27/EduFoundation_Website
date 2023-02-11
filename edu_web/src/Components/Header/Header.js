@@ -4,34 +4,38 @@ import "./header.css";
 function Navbar() {
   return (
     <nav class="navbar navbar-expand-lg bg-white navbar-light shadow sticky-top p-0 changeable">
-      <div class="container-fluid">
+      <div className="container-fluid">
         <a href="" class="navbar-brand">
-          <img src={logo} alt="Bootstrap" id="logo"></img>
+          <img src={logo} id="logo" />
         </a>
-
         <button
-          class="navbar-toggler"
           type="button"
+          class="navbar-toggler me-4"
           data-bs-toggle="collapse"
-          data-bs-target="#navbarNavAltMarkup"
-          aria-controls="navbarNavAltMarkup"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
+          data-bs-target="#navbarCollapse"
         >
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="collapse navbar-collapse" id="navbarCollapse">
           <div class="navbar-nav ms-auto p-4 p-lg-0">
-            <a class="nav-link active" aria-current="page" href="#">
+            <a href="#" class="nav-link">
               Home
             </a>
-            <a class="nav-link" href="#">
-              Features
+            <a href="" class="nav-link">
+              About
             </a>
-            <a class="nav-link" href="#">
-              Pricing
+            <a href="" class="nav-link">
+              Services
             </a>
-            <a class="nav-link disabled">Disabled</a>
+            <a href="" class="nav-link">
+              Courses
+            </a>
+            <a href="" class="nav-link">
+              Contact
+            </a>
+            <a href="" class="nav-link">
+              Login/SignUp
+            </a>
           </div>
         </div>
       </div>

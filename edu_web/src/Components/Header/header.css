@@ -1,0 +1,9 @@
+#logo{
+    width: 60%;
+}
+
+.navbar-brand{
+    padding-right: 0px;
+    margin-right: 0px;
+    width: fit-content;
+}

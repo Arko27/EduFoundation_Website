@@ -7,20 +7,20 @@ function Miss() {
       <div className="container d-flex justify-content-center">
         Vision and Mission
       </div>
-      <div class="card-group">
-        <div class="card mv">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">
+      <div className="card-group">
+        <div className="card mv">
+          <div className="card-body">
+            <h5 className="card-title">Card title</h5>
+            <p className="card-text">
               This is a wider card with supporting text below as a natural
               lead-in to additional content. This card has even longer content
               than the first to show that equal height action.
             </p>
           </div>
 
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">
+          <div className="card-body">
+            <h5 className="card-title">Card title</h5>
+            <p className="card-text">
               This is a wider card with supporting text below as a natural
               lead-in to additional content. This card has even longer content
               than the first to show that equal height action.
@@ -28,8 +28,8 @@ function Miss() {
           </div>
         </div>
 
-        <div class="card mv">
-          <img src={abt} class="card-img-top" alt="..."></img>
+        <div className="card mv">
+          <img src={abt} className="card-img-top" alt="..."></img>
         </div>
       </div>
     </div>

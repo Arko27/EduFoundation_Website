@@ -1,0 +1,11 @@
+.card.f{
+    border: none;
+}
+
+.foot,
+.card.f{
+    background-color: black;
+}
+.card.f{
+    color: white;
+}

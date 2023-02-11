@@ -5,6 +5,9 @@ import Car from './Components/Carousel/Carousel';
 import Moto from './Components/Quote/Quote';
 import About from './Components/AboutUs/AboutUs';
 import Miss from './Components/MissionVission/MissViss';
+import Foot from './Components/Footer/Footer';
+import Service from './Components/Services/Services';
+import Sub from './Components/SubWise_Prac/SubWise';
 
 function App() {
   return (
@@ -14,6 +17,9 @@ function App() {
     <Moto/>
     <About/>
     <Miss/>
+    <Service/>
+    <Sub/>
+    <Foot/>
     </Fragment>
   );
 }

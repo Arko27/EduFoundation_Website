@@ -1,0 +1,27 @@
+:root{
+    --light: #f0F8FF;
+    --primary: #181d38;
+}
+
+.card.s{
+    padding: 10px;
+    border:none;
+    background-color: var(--light);
+    transition: transform ease 300ms
+}
+
+.card.s:hover{
+    background-color: var(--primary);
+    color: var(--light);
+    transform: translate(0, -20px);
+}
+
+.card.s:hover #slogo svg{
+    color: var(--light);
+}
+#slogo svg{
+    height: 3.5rem;
+    width: 3.5rem;
+    color: var(--primary);
+}
+

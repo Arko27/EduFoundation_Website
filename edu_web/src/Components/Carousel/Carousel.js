@@ -12,27 +12,27 @@ const arr2 = [
 
 function Car() {
   return (
-    <div id="carouselExampleFadeInterval" class="carousel slide carousel-fade" data-bs-ride="carousel">
-      <div class="carousel-inner">
+    <div id="carouselExampleFadeInterval" className="carousel slide carousel-fade" data-bs-ride="carousel">
+      <div className="carousel-inner">
         {arr1.map((i) => (
-          <div class={`carousel-item ${i.stat}`} data-bs-ride-interval="1000">
-            <img src={i.img} class="d-block w-100" alt="" />
+          <div className={`carousel-item ${i.stat}`} data-bs-ride-interval="1000">
+            <img src={i.img} className="d-block w-100" alt="" />
           </div>
         ))}
       </div>
 
       {arr2.map((j) => (
         <button
-          class={`carousel-control-${j.btn}`}
+          className={`carousel-control-${j.btn}`}
           type="button"
           data-bs-target="#carouselExampleFadeInterval"
           data-bs-slide={j.btn}
         >
           <span
-            class={`carousel-control-${j.btn}-icon`}
+            className={`carousel-control-${j.btn}-icon`}
             aria-hidden="true"
           ></span>
-          <span class="visually-hidden">{j.name}</span>
+          <span className="visually-hidden">{j.name}</span>
         </button>
       ))}
     </div>
